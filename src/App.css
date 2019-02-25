@@ -1,0 +1,41 @@
+h3 {
+    font-size: 38px;
+    line-height: 39px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.wrapper {
+    padding: 17px 13px 29px;
+    background: white;
+}
+
+.action-buttons {
+    margin: 27px 70px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-buttons button {
+    border-radius: 8px;
+    padding: 12px 72px;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 37px;
+    text-align: center;
+}
+
+.action-buttons button.reset {
+    color: #33c1bc;
+    background: white;
+    border-color: #33c1bc;
+}
+
+.action-buttons button.run {
+    color: white;
+    background: linear-gradient(180deg, #afe023 0%, #78cc15 100%);
+    border-color: #50b618;
+}
